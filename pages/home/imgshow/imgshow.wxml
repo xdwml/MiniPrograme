@@ -1,0 +1,17 @@
+<!--pages/home/imgshow/imgshow.wxml-->
+
+<view id="imgsection">
+  <view class="title">我的天道酬勤</view>
+  <view class="imglist">
+    <image class="image" src="./../../../image/4.jpg"></image>
+  </view>
+</view>
+<view class="imglist">
+    <image class="imgitem" src="https://hackwork.oss-cn-shanghai.aliyuncs.com/lesson/weapp/4/weapp.jpg"></image>
+</view>
+ <view class="imglist">
+     <image      class="imgfull"mode="center"src="https://tcb-1251009918.cos.ap-guangzhou.myqcloud.com/background.png"></image>
+  </view>
+<view class="imglist">
+    <image class="circle"mode="widthFix"src="https://hackwork.oss-cn-shanghai.aliyuncs.com/lesson/weapp/4/logo.jpg"></image>
+</view>

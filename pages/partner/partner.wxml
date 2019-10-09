@@ -1,0 +1,13 @@
+<!--pages/partner/partner.wxml-->
+<view class="flex-box">
+  
+  
+  <view class='list-item'><navigator url="./film/film" >电影列表</navigator></view>
+  <view class='list-item'><navigator url="./grid/grid" >九宫格</navigator></view>
+  <view class="list-item"><navigator url="./grid/grid" >List样式</navigator></view>  
+</view>
+
+<view wx:for-items="{{newstitle}}" wx:for-item="title" wx:key="*this">
+  {{title}}
+</view>
+

@@ -1,0 +1,40 @@
+/* pages/action/action.wxss */
+ /*弹性布局*/
+.list-item{
+  background-color: #82c2f7;
+  height: 100px;
+  text-align: center;
+  border:1px solid yellow;
+  flex: 1;/*让组件等分*/
+  display: flex;
+  align-items:center;/*垂直居中*/
+  justify-content: center;/*水平居中*/
+}
+/*改变组件左右关系*/
+.flex-box{
+  display: flex;
+}
+/*文章样式*/
+.weui-article{
+  padding:20px 15px;
+  font-size:15px
+}
+/*最后小标题样式*/
+.hw__h3{
+  color:#1772cb;
+}
+#news-list .news-item{
+  margin: 15rpx;
+  padding: 15rpx;
+  border-bottom: 1rpx solid yellowgreen
+  }
+#news-list .news-img image{
+  width: 100%;
+  }
+#news-list .news-desc{
+  width: 100%;
+  }
+  /*壁纸*/
+  page{
+    background-image: url(https://tcb-1251009918.cos.ap-guangzhou.myqcloud.com/background.jpg)
+  }

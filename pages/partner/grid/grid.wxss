@@ -1,0 +1,4 @@
+/* pages/grid.wxss */
+.weui-grid{
+  width: 20%;
+}

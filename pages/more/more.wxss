@@ -1,0 +1,48 @@
+/* pages/more/more.wxss */
+/*弹性布局*/
+.list-item{
+  background-color: #82c2f7;
+  height: 100px;
+  text-align: center;
+  border:1px solid yellow;
+  flex: 1;/*让组件等分*/
+  display: flex;
+  align-items:center;/*垂直居中*/
+  justify-content: center;/*水平居中*/
+}
+/*改变组件左右关系*/
+.flex-box{
+  display: flex;
+}
+/*文章样式*/
+.weui-article{
+  padding:20px 15px;
+  font-size:15px
+}
+/*最后小标题样式*/
+.hw__h3{
+  color:#1772cb;
+}
+#news-list .news-item{
+  margin: 15rpx;
+  padding: 15rpx;
+  border-bottom: 1rpx solid yellowgreen
+  }
+#news-list .news-img image{
+  width: 100%;
+  }
+#news-list .news-desc{
+  width: 100%;
+  }
+  .weui-grid{
+  width: 20%;
+}
+/** 修改button默认的点击态样式类**/
+.button-hover {
+  background-color: red;
+}
+/** 添加自定义button点击态样式类**/
+.other-button-hover {
+  background-color: blue;
+}
+button {margin: 10px;}

@@ -1,0 +1,32 @@
+<!--pages/more/more.wxml-->
+<view class="flex-box">
+  <view class='list-item'><navigator url="./audio/audio" >我的音乐</navigator></view>
+  <view class="list-item"><navigator url="./video/video" >我的视频</navigator></view>  
+</view>
+<view class="flex-box">
+  <view class='list-item'><navigator url="./swiper/swiper" >轮播图</navigator></view>
+  <view class='list-item'><navigator url="./map/map" >我的地图</navigator></view>
+</view>
+<view class="page__bd">
+    <view class="weui-grids">
+        <block wx:for="{{grids}}" wx:for-item="grid" wx:key="*this">
+            <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                <image class="weui-grid__icon" src="{{grid.imgurl}}" />
+                <view class="weui-grid__label">{{grid.title}}</view>
+            </navigator>
+        </block>
+    </view>
+</view>
+<view class="weui-cells weui-cells_after-title">
+    <block wx:for="{{listicons}}" wx:for-item="listicons">
+        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+            <view class="weui-cell__hd">
+                <image src="{{listicons.icon}}" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+            </view>
+            <view class="weui-cell__bd">{{listicons.title}}</view>
+            <view class="weui-cell__ft weui-cell__ft_in-access">{{listicons.desc}}</view>
+        </navigator>
+    </block>
+</view>
+<button open-type="contact">进入客服会话</button>
+<button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">获取用户信息</button>

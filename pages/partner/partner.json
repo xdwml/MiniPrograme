@@ -1,0 +1,10 @@
+{
+  "usingComponents": {},
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1772cb",
+    "navigationBarTitleText": "HackWork技术工坊",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#1772cb"
+  }
+}

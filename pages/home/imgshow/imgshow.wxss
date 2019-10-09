@@ -1,0 +1,38 @@
+/* pages/home/imgshow/imgshow.wxss */
+.title{
+  font-size: 30px; 
+  font-weight: 600;
+  text-align: center;
+  }
+.imglist{
+  text-align: center;
+}
+/*图1样式表*/
+.imglist .image{
+  width: 100%;
+  height: 200px;
+  margin: 20rpx;
+}
+
+/*图2样式表*/
+.imglist .imgitem{
+  width: 700rpx;
+  height: 415rpx;
+  margin: 20rpx;
+}
+/*圆角*/
+.imglist .imgitem{
+  border-radius: 8px;
+  box-shadow: 5px 8px 30px rgba(53,178,225,0.26);
+}
+/*图3样式表*/
+.imglist .imgfull{
+  width: 100%;
+  height: 100px;
+}
+/*图4样式表*/
+.imglist .circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}

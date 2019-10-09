@@ -1,0 +1,3 @@
+<!--pages/gradient.wxml-->
+<view id="item1">渐变与动画</view>
+<view class="gradient-display"></view>

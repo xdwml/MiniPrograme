@@ -1,0 +1,50 @@
+/* pages/transform.wxss */
+/*变形属性*/
+.transform-display image{
+  width: 80px;height: 80px;
+  }
+.scale{
+    transform: scale(1,0.5);
+}
+.translate{
+    transform: translate(500px,20px);
+}
+.rotate{
+    transform: rotate(45deg);
+}
+.skew{
+    transform: skew(120deg);
+}
+/*过度属性*/
+.selector {
+    transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay];
+}
+/*综合案例*/
+
+.animatebox {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #4a9d64;
+    transition:width 2s, height 2s, background-color 2s, transform 2s;
+}
+.animatebox-hover {
+    background-color: #cd584a;
+    width:200px;
+    height:200px;
+    transform:rotate(180deg);
+}
+/*动画属性*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+ 
+  to {
+    opacity: 1;
+  }
+}
+ 
+.fadeIn {
+  animation: 4s linear 0s infinite alternate fadeIn;
+}
